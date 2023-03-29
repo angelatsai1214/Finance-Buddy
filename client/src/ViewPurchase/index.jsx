@@ -48,9 +48,9 @@ const ViewPurchase = () => {
                 <h2 className="item-subtitle">${purchase.cost}</h2>
                 <p className="item-text">{purchase.method}</p>
               </div> 
-              <button className="delete-button" onClick={(e) => handleDeletePurchase(index)}>
+              {/*<button className="delete-button" onClick={(e) => handleDeletePurchase(index)}>
                 Delete Purchase
-              </button>
+              </button>*/}
             </div>
           
         );
